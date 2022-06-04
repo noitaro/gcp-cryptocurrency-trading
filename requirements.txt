@@ -1,0 +1,2 @@
+pybotters==0.12.0
+google-cloud-storage==2.2.1

@@ -1,0 +1,50 @@
+{
+    "line": {
+        "channel_access_token": ""
+    },
+    "google": {
+        "storage_bucket": ""
+    },
+    "exchanges": [
+        {
+            "exchange": "binance",
+            "api_key": "",
+            "api_secret": ""
+        },
+        {
+            "exchange": "binance_testnet",
+            "api_key": "",
+            "api_secret": ""
+        },
+        {
+            "exchange": "bybit",
+            "api_key": "",
+            "api_secret": ""
+        },
+        {
+            "exchange": "bybit_testnet",
+            "api_key": "",
+            "api_secret": ""
+        }
+    ],
+    "strateges": [
+        {
+            "strategy_name": "test_bot1",
+            "exchange": "bybit_testnet",
+            "symbol": "BTCUSDT",
+            "quantity": "0.001"
+        },
+        {
+            "strategy_name": "test_bot2",
+            "exchange": "binance_testnet",
+            "symbol": "BTCUSDT",
+            "quantity": "0.002"
+        },
+        {
+            "strategy_name": "test_bot3",
+            "exchange": "binance",
+            "symbol": "BTCUSDT",
+            "quantity": "0.001"
+        }
+    ]
+}
